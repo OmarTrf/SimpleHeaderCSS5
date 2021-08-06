@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	height: 108vh;
+	width: 100%;
+	background-image: url("fashion.jpg");
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.container .content{
+	width: 88%;
+	margin: auto;
+	position: relative;
+	z-index: 2;
+}
+.container .content .logo{
+   font-size: 2.5em;
+   font-weight: 800;
+   padding-top:20px;
+   letter-spacing: 3px;
+   color: #ff3f76;
+   font-family: serif;
+   font-family: 'Big Shoulders Stencil Text', cursive;
+}
+.container .content hr{
+	border:none;
+	height: 6px;
+	max-width:144px;
+	background: #ff3f76;
+}
+.container .content .desLogo{
+	font-size: 185px;
+	font-weight: 200;
+	color: #cfcfcf;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	letter-spacing: 4px;
+}
+.container .content p{
+	max-width: 450px;
+	color: #c1c1c1;
+	letter-spacing: 1px;
+	line-height: 20px;
+	font-size: 18px;
+	letter-spacing: 1px;
+	text-align: justify;
+}
+.container .content .btn{
+	text-decoration: none;
+	border:1px solid #fff;
+	color: #fff;
+	letter-spacing: 1px;
+	padding: 18px 34px;
+	border-radius: 30px;
+	display: inline-block;
+	margin-top: 20px;
+	font-size: 18px;
+}
+.btn2{
+	float: right;
+}
+.container .content .btn:hover{
+	background: #ff3f76;
+	border-color: #c1c1c1;
+	color: #ccc;
+	transition: 0.5s;
+}
+.container .sidebar{
+	width:57%;
+	height: 100%;
+	background: rgba(0,0,0,0.8);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	backdrop-filter:blur(4px);
+}
